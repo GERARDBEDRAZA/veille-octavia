@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T17:56:49+02:00",
+ "generated_at": "2026-10-11T18:17:47+02:00",
  "title": "Octavia Exclusive Selection",
  "subtitle": "Actualisation du 11/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
  "coverage": {
@@ -178,17 +178,6 @@
    "url": "https://auto-poly.cz/cars/2879"
   },
   {
-   "tag": "TDI DSG7",
-   "dealer": "Direct auto · H. Počernice",
-   "price": 719900,
-   "currency": "CZK",
-   "km": 11188,
-   "status": "Annonce publiée · liftback 01/2025",
-   "vin": "TMBAJ8NX4SY081319",
-   "details": "Exclusive Selection, diesel 110 kW, automatique 7 rapports. Les équipements prioritaires doivent être contrôlés par VIN ; aucune validation complète du pack demandé.",
-   "url": "https://www.direct-auto.cz/products/skoda-octavia-2-0-tdi-110-kw-excl-selection-2"
-  },
-  {
    "tag": "TDI · à préciser",
    "dealer": "Auto-Poly · Praha",
    "price": 735000,
@@ -209,6 +198,17 @@
    "vin": "TMBAJ8NX2SM055020",
    "details": "La fiche indique un véhicule réparé. Matrix, 360°, ventilation et massage annoncés. DCC, Canton, HUD, attelage et tri-zone non confirmés. À examiner séparément des voitures sans réparation annoncée.",
    "url": "https://www.autoopat.cz/vuz/skoda-octavia-exclusive-20tdi-110kw-dsg-matrix"
+  },
+  {
+   "tag": "TDI DSG7",
+   "dealer": "Direct auto · H. Počernice",
+   "price": 859900,
+   "currency": "CZK",
+   "km": 11188,
+   "status": "Annonce publiée · liftback 01/2025",
+   "vin": "TMBAJ8NX4SY081319",
+   "details": "Exclusive Selection, diesel 110 kW, automatique 7 rapports. Les équipements prioritaires doivent être contrôlés par VIN ; aucune validation complète du pack demandé.",
+   "url": "https://www.direct-auto.cz/products/skoda-octavia-2-0-tdi-110-kw-excl-selection-2"
   },
   {
    "tag": "TDI DSG7",
@@ -833,8 +833,8 @@
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/ojete/renault-trafic-equilibre-l2-blue-dci-150-mt6-p0888",
-     "title": "Renault Trafic Equilibre L2 Blue dCi 150 MT6/P0888 - autodobrovolny.cz",
+     "url": "https://www.autodobrovolny.cz/katalog/ojete/enyaq-coupe-rs-220-kw-4x4",
+     "title": "Enyaq Coupe RS 220 kW 4x4/P190AX - autodobrovolny.cz",
      "result": "200"
     }
    ],
@@ -3176,13 +3176,13 @@
      "result": "200"
     },
     {
-     "url": "https://www.tukas.cz/akcni-nabidky/vyzkousejte-dacia-duster-na-vlastni-kuzi",
-     "title": "Vyzkoušejte Dacia Duster na vlastní kůži! - TUkas",
+     "url": "https://www.tukas.cz/akcni-nabidky/volvo-roadshow",
+     "title": "Nové Volvo XC40 a XC60 | Roadshow TUkas Malešice - TUkas",
      "result": "200"
     },
     {
-     "url": "https://www.tukas.cz/akcni-nabidky/wallbox-vcetne-instalace-v-cene-vozu",
-     "title": "Wallbox včetně instalace v ceně elektrického vozu Renault - TUkas",
+     "url": "https://www.tukas.cz/akcni-nabidky/vyzkousejte-dacia-duster-na-vlastni-kuzi",
+     "title": "Vyzkoušejte Dacia Duster na vlastní kůži! - TUkas",
      "result": "200"
     },
     {
@@ -5379,113 +5379,17 @@
  ],
  "footer": "Contrôle web du 10/10/2026. Priorité de vérification vendeur : disponibilité, carrosserie liftback restylée, BVM6/DSG7, finition exacte et fiche usine précisant DCC, attelage/Trailer Assist, tri-zone, HUD, Area View, Canton, Matrix et sièges.",
  "changes": {
-  "new": [
+  "new": [],
+  "gone": [],
+  "price": [
    {
-    "dealer": "DOBE CAR",
-    "vin": "TMBAR8NX0TM030739",
-    "url": "https://dobe-car.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbar8nx0tm030739/466057",
-    "price": 70000,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "DOBE CAR",
-    "vin": "TMBAR8NX3TM028452",
-    "url": "https://dobe-car.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbar8nx3tm028452/466058",
-    "price": 70000,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "DOBE CAR",
-    "vin": "TMBAR8NX5TM009479",
-    "url": "https://dobe-car.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbar8nx5tm009479/463425",
-    "price": 70000,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "UNICAR",
-    "vin": "TMBAR8NX9SM052382",
-    "url": "https://unicar.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbar8nx9sm052382/452564",
-    "price": 25615000,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "PP AUTOCENTRUM",
-    "vin": "TMBAR8NX4TM011529",
-    "url": "https://pp-autocentrum.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbar8nx4tm011529/462535",
-    "price": 25619000,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "DOBE CAR",
-    "vin": "TMBAJ0NX4SM023641",
-    "url": "https://dobe-car.skoda-auto.cz/ojete-vozy/skoda-octavia-sportline/tmbaj0nx4sm023641/463177",
-    "price": 70000,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "DOBE CAR",
-    "vin": "TMBAJ0NX8TM036555",
-    "url": "https://dobe-car.skoda-auto.cz/ojete-vozy/skoda-octavia-sportline/tmbaj0nx8tm036555/462079",
-    "price": 70000,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "UNICAR",
-    "vin": "TMBAJ8NX0NY109752",
-    "url": "https://unicar.skoda-auto.cz/ojete-vozy/skoda-octavia-style-plus/tmbaj8nx0ny109752/463189",
-    "price": 22449000,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "AUTOSHOP PAULUS",
-    "vin": "TMBAJ8NX6SY031831",
-    "url": "https://paulus.skoda-auto.cz/ojete-vozy/skoda-octavia-exclusive-selection/tmbaj8nx6sy031831/368910",
-    "price": 24699900,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "KARIREAL",
-    "vin": "TMBAJ0NX0TM007826",
-    "url": "https://karireal.skoda-auto.cz/ojete-vozy/skoda-octavia-exclusive-selection/tmbaj0nx0tm007826/464325",
-    "price": 25705430,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "KARIREAL",
-    "vin": "TMBAJ8NX8TM007720",
-    "url": "https://karireal.skoda-auto.cz/ojete-vozy/skoda-octavia-exclusive-selection/tmbaj8nx8tm007720/464118",
-    "price": 25733260,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "KARIREAL",
-    "vin": "TMBAJ8NX5TM017699",
-    "url": "https://karireal.skoda-auto.cz/ojete-vozy/skoda-octavia-exclusive-selection/tmbaj8nx5tm017699/462264",
-    "price": 25741730,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "AUTO BRANKA",
-    "vin": "TMBAJ8NXXSM060305",
-    "url": "https://branka.skoda-auto.cz/ojete-vozy/skoda-octavia-exclusive-selection/tmbaj8nxxsm060305/463366",
-    "price": 25749900,
-    "currency": "CZK"
-   },
-   {
-    "dealer": "AUTOSERVIS JINDRA",
-    "vin": "TMBAJ8NX6TM007926",
-    "url": "https://autoservisjindra.skoda-auto.cz/ojete-vozy/skoda-octavia-exclusive-selection/tmbaj8nx6tm007926/460934",
-    "price": 25789000,
+    "dealer": "Direct auto · H. Počernice",
+    "vin": "TMBAJ8NX4SY081319",
+    "url": "https://www.direct-auto.cz/products/skoda-octavia-2-0-tdi-110-kw-excl-selection-2",
+    "before": 719900,
+    "after": 859900,
     "currency": "CZK"
    }
-  ],
-  "gone": [
-   {
-    "dealer": "Jičín · bleu Race",
-    "vin": "TMBAR8NX3SM036775",
-    "url": "https://www.dasweltauto.cz/vehicle/298001874"
-   }
-  ],
-  "price": []
+  ]
  }
 }
