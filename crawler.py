@@ -119,8 +119,26 @@ def to_int(s):
     return int(d) if d else None
 
 
-PRICE_RE = re.compile(r"(\d{1,3}(?: \d{3})+|\d{5,7})\s*(?:Kč|CZK)(?!\s*bez\s*DPH)", re.I)
-EUR_RE = re.compile(r"(\d{1,3}(?: \d{3})+)\s*€")
+PRICE_RE = re.compile(r"(?<![\d])(\d{1,3}(?: \d{3})+|\d{5,7})\s*(?:Kč|CZK)(?!\s*bez\s*DPH)", re.I)
+EUR_RE = re.compile(r"(?<![\d])(\d{1,3}(?: \d{3})+)\s*€")
+RANGE = {"CZK": (250_000, 1_600_000), "EUR": (8_000, 60_000)}
+OUT_SLUG = re.compile(r"top-?selection|sportline|style|laurin|klement|scout|-rs-|-rs$|monte|selection-plus", re.I)
+
+
+def find_num(rx, text, vin, cur):
+    """Premier montant plausible, en cherchant d'abord autour du VIN puis dans toute la page."""
+    lo, hi = RANGE[cur]
+    for zone in (window(text, vin, 2500), text):
+        for m in rx.finditer(zone):
+            v = to_int(m.group(1))
+            if v and lo <= v <= hi:
+                return v
+    return None
+
+
+def car_title(html, url):
+    t = re.findall(r"(?is)<(?:title|h1)[^>]*>(.*?)</(?:title|h1)>", html)
+    return (urllib.parse.urlsplit(url).path + " " + " ".join(strip_html(x) for x in t[:3])).lower()
 KM_RE = re.compile(r"(\d{1,3}(?: \d{3})+|\d{1,6})\s*km\b", re.I)
 SOLD_RE = re.compile(r"prodáno|vyprodáno|již prodán|rezervováno|sold\b")
 
@@ -146,8 +164,11 @@ def parse_offer(url, html, dealer):
     """Analyse une fiche. Retourne une offre, ou None si hors périmètre (Combi, essence auto, TDI manuelle…)."""
     text = strip_html(html)
     low = text.lower()
-    if "octavia" not in low or "exclusive" not in low:
+    if "octavia" not in low:
         return None
+    ident = car_title(html, url)
+    if "exclusive" not in ident or OUT_SLUG.search(ident.replace("exclusive-selection", "").replace("exclusive selection", "")):
+        return None                                           # finition absente du titre/URL de la fiche, ou autre finition
     vin = next(iter(VIN_RE.findall(url) or VIN_RE.findall(text)), None)
     vin = vin.upper() if vin else None
     if vin:
@@ -184,7 +205,7 @@ def parse_offer(url, html, dealer):
     if re.search(r"po opravě|po nehodě|havarovan|accident", w2):
         tag += " · réparée"
     sold = bool(SOLD_RE.search(w2))
-    pm, em, km = PRICE_RE.search(text), EUR_RE.search(text), KM_RE.search(text)
+    p_czk, p_eur, km = find_num(PRICE_RE, text, vin, "CZK"), find_num(EUR_RE, text, vin, "EUR"), KM_RE.search(window(text, vin, 2500)) or KM_RE.search(text)
     w3 = window(text, vin, 2500).lower()
     equip = [lab for lab, rx in [
         ("HUD", r"\bhud\b|head[- ]?up"), ("360°", r"360|area view"), ("Canton", r"canton"), ("Matrix", r"matrix"),
@@ -193,8 +214,8 @@ def parse_offer(url, html, dealer):
     note = " Incohérence VIN / texte sur la motorisation." if conflict else ""
     return {
         "tag": tag, "dealer": dealer,
-        "price": to_int(pm.group(1)) if pm else (to_int(em.group(1)) if em else None),
-        "currency": "CZK" if pm or not em else "EUR",
+        "price": p_czk or p_eur,
+        "currency": "CZK" if p_czk or not p_eur else "EUR",
         "km": to_int(km.group(1)) if km else None,
         "status": "Vendue ou réservée (à vérifier)" if sold else "Annonce publiée",
         "vin": vin,
@@ -324,9 +345,9 @@ def recheck_known(o):
         o["status"] = "Signalée vendue ou réservée (à vérifier)"
     elif str(o.get("status", "")).startswith(("Lien indisponible", "Signalée")):
         o["status"] = "Annonce publiée"
-    m = (PRICE_RE if o.get("currency", "CZK") == "CZK" else EUR_RE).search(text)
-    if m:
-        new = to_int(m.group(1))
+    cur = o.get("currency", "CZK")
+    new = find_num(PRICE_RE if cur == "CZK" else EUR_RE, text, o.get("vin"), cur)
+    if new:
         old = o.get("price")
         if new and (not old or 0.7 * old <= new <= 1.3 * old):     # garde-fou contre une mauvaise lecture
             o["price"] = new
