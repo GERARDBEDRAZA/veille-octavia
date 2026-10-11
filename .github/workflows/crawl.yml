@@ -1,0 +1,27 @@
+name: Actualiser la recherche
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python crawler.py --data data.json
+      - run: python -c "import json; d=json.load(open('data.json',encoding='utf-8')); assert d['sites'] and 'generated_at' in d; print(len(d['offers']),'offres')"
+      - run: |
+          git config user.name "veille-octavia-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "Actualisation automatique $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
