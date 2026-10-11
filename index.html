@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Veille Octavia Exclusive Selection</title>
+<style>
+body{margin:0;background:#f4f7f6;color:#12382e;font:16px/1.55 system-ui,sans-serif}
+header{background:#073c2d;color:white;padding:44px max(24px,calc((100vw - 1200px)/2))}
+main{max-width:1200px;margin:auto;padding:28px}
+h1{font-size:clamp(28px,4vw,46px);line-height:1.15}
+h2{margin-top:40px}
+a{color:#067653}
+header p{max-width:900px}
+article,.notice{background:white;border:1px solid #d6e3dd;border-radius:14px;padding:23px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px}
+.tag{font-weight:700;color:#0a7554;font-size:13px}
+.price{font-weight:800;font-size:24px}
+.price small{font-weight:400;font-size:16px}
+code{font-size:13px;overflow-wrap:anywhere}
+.button{display:inline-block;background:#0a7554;color:white;padding:8px 16px;border-radius:8px;text-decoration:none;border:0;font:inherit;cursor:pointer}
+.button:disabled{opacity:.55;cursor:wait}
+.notice{border-left:5px solid #e6ac45;margin:20px 0}
+input{padding:12px;width:min(500px,90%);border:1px solid #a5bfb2;border-radius:8px}
+.scroll{overflow:auto}
+table{border-collapse:collapse;width:100%;background:white;font-size:14px}
+td,th{padding:13px;text-align:left;border-bottom:1px solid #d9e4de;vertical-align:top}
+th{background:#e2ede7}
+details p{max-width:500px;overflow-wrap:anywhere}
+footer{padding:30px 0;color:#557267}
+#refresh-bar{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:18px}
+#refresh-bar .button{background:#fff;color:#073c2d;font-weight:700}
+#refresh-status{font-size:14px;opacity:.95}
+.badge-new{background:#e6ac45;color:#12382e;border-radius:6px;padding:1px 7px;font-size:12px;font-weight:700;margin-left:6px}
+.delta{font-size:14px;font-weight:600}
+.delta.down{color:#067653}.delta.up{color:#a23b2a}
+.ko{color:#a23b2a;font-weight:600}
+@media print{header{padding:20px}.button,input,#refresh-bar{display:none}article{break-inside:avoid}.grid{display:block}}
+</style>
+
+<header>
+  <p>VEILLE AUTOMOBILE · RÉPUBLIQUE TCHÈQUE</p>
+  <h1 id="title">Octavia Exclusive Selection</h1>
+  <p id="subtitle"></p>
+  <div id="refresh-bar">
+    <button class="button" id="refresh" type="button">↻ Actualiser la recherche</button>
+    <span id="refresh-status" role="status" aria-live="polite">Chargement…</span>
+  </div>
+</header>
+
+<main>
+  <div class="notice"><strong id="cov"></strong><p id="cov-note"></p></div>
+
+  <div id="changes-live" hidden>
+    <h2>Évolutions depuis le dernier passage</h2>
+    <ul id="changes-live-list"></ul>
+  </div>
+
+  <h2>Offres retenues et pistes à revalider</h2>
+  <p>Les prix sont ceux publiés, sans conversion de devises. Les équipements sont déclarés dans les annonces, sans contrôle usine par VIN. Aucun véhicule BVM6 ci-dessous ne confirme explicitement tous les équipements demandés, notamment le DCC.</p>
+  <div class="grid" id="offers"></div>
+
+  <h2>Changements et exclusions</h2>
+  <ul id="notes"></ul>
+
+  <h2>Journal de contrôle des domaines</h2>
+  <p>Une ligne par domaine. Le contrôle est partiel même lorsqu’une page répond. Les redirections peuvent conduire vers les pages concessionnaires de Škoda ou vers un groupe.</p>
+  <input id="q" type="search" placeholder="Rechercher un concessionnaire ou un statut…" aria-label="Filtrer le journal">
+  <p id="count"></p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Concessionnaire</th><th>Lien</th><th>Statut du passage</th><th>Pages</th><th>Détail</th></tr></thead>
+      <tbody id="coverage"></tbody>
+    </table>
+  </div>
+
+  <h2>Autres annonces repérées</h2>
+  <p>Liens de contrôle : cette liste inclut des annonces exclues, des doublons, des offres retirées ou insuffisamment documentées. Elle ne constitue pas une sélection conforme.</p>
+  <details><summary>Afficher les liens repérés</summary><ul id="others"></ul></details>
+
+  <footer id="footer"></footer>
+</main>
+
+<script>
+/* ======== Configuration ======== */
+// URL du proxy Cloudflare Worker (voir worker/README.md). Laisser vide tant qu'il n'est pas déployé :
+// le bouton relit alors simplement data.json.
+const API = "";
+const DATA_URL = "data.json";
+const POLL_MS = 10000, POLL_MAX = 90;           // sondage : 15 minutes maximum
+
+/* ======== Utilitaires ======== */
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = n => n == null ? "—" : n.toLocaleString("fr-FR").replace(/ /g, " ");
+const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "#";
+const dt = iso => new Date(iso).toLocaleString("fr-FR", {dateStyle: "long", timeStyle: "short"});
+let SITES = [];
+
+/* ======== Rendu ======== */
+function render(d){
+  document.title = "Veille " + d.title + " — " + new Date(d.generated_at).toLocaleDateString("fr-FR");
+  $("#title").textContent = d.title;
+  $("#subtitle").textContent = d.subtitle || "";
+  const c = d.coverage || {};
+  $("#cov").textContent = `Couverture : ${c.domains} domaines recherchés · ${c.ok} sites accessibles · ${c.ko} sites non vérifiables · ${c.pages} pages obtenues.`;
+  $("#cov-note").textContent = d.coverage_note || "";
+
+  const ch = d.changes;
+  const box = $("#changes-live");
+  if (ch && (ch.new?.length || ch.gone?.length || ch.price?.length)) {
+    box.hidden = false;
+    $("#changes-live-list").innerHTML =
+      (ch.new || []).map(x => `<li><strong>Nouvelle offre</strong> : ${esc(x.dealer)} — ${fmt(x.price)} ${esc(x.currency)}</li>`).join("") +
+      (ch.price || []).map(x => `<li><strong>Prix modifié</strong> : ${esc(x.dealer)} — ${fmt(x.before)} → ${fmt(x.after)} ${esc(x.currency)}</li>`).join("") +
+      (ch.gone || []).map(x => `<li><strong>Offre disparue</strong> : ${esc(x.dealer)} — ${esc(x.vin || x.url)}</li>`).join("");
+  } else box.hidden = true;
+
+  const newKeys = new Set((ch?.new || []).map(x => x.vin || x.url));
+  const priceDelta = new Map((ch?.price || []).map(x => [x.vin || x.url, x]));
+  $("#offers").innerHTML = (d.offers || []).map(o => {
+    const k = o.vin || o.url, p = priceDelta.get(k);
+    const delta = p ? ` <span class="delta ${p.after < p.before ? "down" : "up"}">${p.after < p.before ? "▼" : "▲"} ${fmt(Math.abs(p.after - p.before))}</span>` : "";
+    return `<article>
+      <span class="tag">${esc(o.tag)}</span>${newKeys.has(k) ? '<span class="badge-new">Nouveau</span>' : ""}
+      <h3>${esc(o.dealer)}</h3>
+      <div class="price">${fmt(o.price)} ${o.currency === "EUR" ? "€" : "Kč"} <small>· ${fmt(o.km)} km</small>${delta}</div>
+      <p>${esc(o.status)}</p>
+      <code>${esc(o.vin || "VIN non publié")}</code>
+      <p>${esc(o.details)}</p>
+      ${o.url ? `<a class="button" href="${esc(safeUrl(o.url))}" target="_blank" rel="noopener">Ouvrir l’annonce ↗</a>` : ""}
+    </article>`;
+  }).join("");
+
+  $("#notes").innerHTML = (d.changes_notes || []).map(t => `<li>${esc(t)}</li>`).join("");
+
+  SITES = d.sites || [];
+  $("#coverage").innerHTML = SITES.map(s => `<tr>
+    <td>${esc(s.name)}</td>
+    <td><a href="${esc(safeUrl(s.url))}">Site</a></td>
+    <td class="${s.reachable ? "" : "ko"}">${esc(s.status)}</td>
+    <td>${s.pages}</td>
+    <td><details><summary>Pages contrôlées</summary>${(s.checked || []).map(p =>
+      `<p><a href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener">${esc(p.title || p.url)}</a> — ${esc(p.result)}</p>`).join("")}</details></td>
+  </tr>`).join("");
+  applyFilter();
+
+  $("#others").innerHTML = (d.other_links || []).map(l => `<li><a href="${esc(safeUrl(l.url))}">${esc(l.title)}</a></li>`).join("");
+  $("#footer").textContent = d.footer || "";
+  $("#refresh-status").textContent = "Dernière actualisation : " + dt(d.generated_at);
+}
+
+function applyFilter(){
+  const q = $("#q").value.toLowerCase();
+  let n = 0;
+  for (const tr of $("#coverage").rows) { const ok = tr.textContent.toLowerCase().includes(q); tr.hidden = !ok; if (ok) n++; }
+  $("#count").textContent = `${n} sites affichés sur ${SITES.length}`;
+}
+$("#q").addEventListener("input", applyFilter);
+
+/* ======== Chargement et actualisation ======== */
+async function getData(){
+  const r = await fetch(DATA_URL + "?ts=" + Date.now(), {cache: "no-store"});
+  if (!r.ok) throw new Error("data.json : HTTP " + r.status);
+  return r.json();
+}
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+async function refresh(){
+  const btn = $("#refresh"), st = $("#refresh-status");
+  btn.disabled = true;
+  try {
+    const before = (await getData()).generated_at;
+    if (!API) {                                   // pas de proxy configuré : simple rechargement
+      render(await getData());
+      st.textContent += " (proxy non configuré : relecture seule)";
+      return;
+    }
+    st.textContent = "Lancement du passage…";
+    const r = await fetch(API + "/dispatch", {method: "POST"});
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(j.error || "HTTP " + r.status);
+    for (let i = 1; i <= POLL_MAX; i++) {
+      await sleep(POLL_MS);
+      st.textContent = `Recherche en cours… ${i * POLL_MS / 1000} s`;
+      const d = await getData().catch(() => null);
+      if (d && d.generated_at !== before) { render(d); st.textContent = "Actualisé · " + dt(d.generated_at); return; }
+    }
+    st.textContent = "Délai dépassé : le passage continue côté serveur, rechargez la page plus tard.";
+  } catch (e) {
+    st.textContent = "Échec de l’actualisation (" + e.message + ").";
+  } finally { btn.disabled = false; }
+}
+$("#refresh").addEventListener("click", refresh);
+
+getData().then(render).catch(e => { $("#refresh-status").textContent = "Données indisponibles (" + e.message + ")."; });
+</script>
