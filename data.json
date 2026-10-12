@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-11T18:17:47+02:00",
+ "generated_at": "2026-10-12T14:10:05+02:00",
  "title": "Octavia Exclusive Selection",
- "subtitle": "Actualisation du 11/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
+ "subtitle": "Actualisation du 12/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
  "coverage": {
   "domains": 115,
   "ok": 111,
   "ko": 4,
-  "pages": 710,
+  "pages": 712,
   "own_site_ok": 98,
   "portal_ok": 51
  },
@@ -578,12 +578,12 @@
      "result": "200"
     },
     {
-     "url": "https://auto-poly.cz/nabidka-vozidel?condition[0]=USED&amp;condition[1]=EX_DEMO",
+     "url": "https://auto-poly.cz/nabidka-vozidel?weeklyOffer=true",
      "title": "Nabídka vozidel - Auto - Poly",
      "result": "200"
     },
     {
-     "url": "https://auto-poly.cz/nabidka-vozidel?weeklyOffer=true",
+     "url": "https://auto-poly.cz/nabidka-vozidel?condition[0]=USED&amp;condition[1]=EX_DEMO",
      "title": "Nabídka vozidel - Auto - Poly",
      "result": "200"
     }
@@ -2610,8 +2610,13 @@
      "result": "200"
     },
     {
-     "url": "https://horacke-autodruzstvo-trebic.skoda-auto.cz/ojete-vozy/skoda-octavia-elegance/tmbgs21zx82233899/466339",
-     "title": "&#x160;koda Octavia Elegance | &#x160;koda Auto a.s.",
+     "url": "https://horacke-autodruzstvo-trebic.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbag8nx2sm056165/464953",
+     "title": "&#x160;koda Octavia Selection | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
+     "url": "https://horacke-autodruzstvo-trebic.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbar8nx2sm058685/458638",
+     "title": "&#x160;koda Octavia Selection | &#x160;koda Auto a.s.",
      "result": "200"
     },
     {
@@ -2620,7 +2625,7 @@
      "result": "200"
     }
    ],
-   "pages": 12,
+   "pages": 13,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -3176,13 +3181,13 @@
      "result": "200"
     },
     {
-     "url": "https://www.tukas.cz/akcni-nabidky/volvo-roadshow",
-     "title": "Nové Volvo XC40 a XC60 | Roadshow TUkas Malešice - TUkas",
+     "url": "https://www.tukas.cz/akcni-nabidky/vyzkousejte-dacia-duster-na-vlastni-kuzi",
+     "title": "Vyzkoušejte Dacia Duster na vlastní kůži! - TUkas",
      "result": "200"
     },
     {
-     "url": "https://www.tukas.cz/akcni-nabidky/vyzkousejte-dacia-duster-na-vlastni-kuzi",
-     "title": "Vyzkoušejte Dacia Duster na vlastní kůži! - TUkas",
+     "url": "https://www.tukas.cz/akcni-nabidky/wallbox-vcetne-instalace-v-cene-vozu",
+     "title": "Wallbox včetně instalace v ceně elektrického vozu Renault - TUkas",
      "result": "200"
     },
     {
@@ -4564,8 +4569,13 @@
      "result": "200"
     },
     {
-     "url": "https://horacke-autodruzstvo-trebic.skoda-auto.cz/ojete-vozy/skoda-octavia-elegance/tmbgs21zx82233899/466339",
-     "title": "&#x160;koda Octavia Elegance | &#x160;koda Auto a.s.",
+     "url": "https://horacke-autodruzstvo-trebic.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbag8nx2sm056165/464953",
+     "title": "&#x160;koda Octavia Selection | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
+     "url": "https://horacke-autodruzstvo-trebic.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbar8nx2sm058685/458638",
+     "title": "&#x160;koda Octavia Selection | &#x160;koda Auto a.s.",
      "result": "200"
     },
     {
@@ -4574,7 +4584,7 @@
      "result": "200"
     }
    ],
-   "pages": 12,
+   "pages": 13,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -5381,15 +5391,6 @@
  "changes": {
   "new": [],
   "gone": [],
-  "price": [
-   {
-    "dealer": "Direct auto · H. Počernice",
-    "vin": "TMBAJ8NX4SY081319",
-    "url": "https://www.direct-auto.cz/products/skoda-octavia-2-0-tdi-110-kw-excl-selection-2",
-    "before": 719900,
-    "after": 859900,
-    "currency": "CZK"
-   }
-  ]
+  "price": []
  }
 }
