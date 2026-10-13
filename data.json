@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-12T14:10:05+02:00",
+ "generated_at": "2026-10-13T13:59:01+02:00",
  "title": "Octavia Exclusive Selection",
- "subtitle": "Actualisation du 12/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
+ "subtitle": "Actualisation du 13/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
  "coverage": {
   "domains": 115,
-  "ok": 111,
-  "ko": 4,
-  "pages": 712,
-  "own_site_ok": 98,
+  "ok": 110,
+  "ko": 5,
+  "pages": 711,
+  "own_site_ok": 97,
   "portal_ok": 51
  },
  "coverage_note": "Le passage combine une recherche indexée par domaine, l’ouverture des accueils et jusqu’à cinq liens de stock prioritaires par site, puis la lecture des annonces détectées. La pagination complète, les stocks chargés uniquement par JavaScript et les sites bloqués ne sont pas entièrement contrôlés. « Aucune offre retenue » ne signifie pas « aucun véhicule en stock ». La disponibilité physique n’a pas été confirmée auprès des vendeurs.",
@@ -833,8 +833,8 @@
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/ojete/enyaq-coupe-rs-220-kw-4x4",
-     "title": "Enyaq Coupe RS 220 kW 4x4/P190AX - autodobrovolny.cz",
+     "url": "https://www.autodobrovolny.cz/katalog/ojete/renault-trafic-equilibre-l2-blue-dci-150-mt6-p0888",
+     "title": "Renault Trafic Equilibre L2 Blue dCi 150 MT6/P0888 - autodobrovolny.cz",
      "result": "200"
     }
    ],
@@ -1371,7 +1371,7 @@
      "result": "200"
     },
     {
-     "url": "https://www.autonord.cz/vozy/volkswageny-skladem-v-decine",
+     "url": "https://www.autonord.cz/vozy/vyprodej-skladu",
      "title": "Auto Nord — autorizovaný prodejce CUPRA, Hyundai, Kia, SEAT, Škoda, Volkswagen a Volkswagen Užitkové",
      "result": "200"
     }
@@ -1708,8 +1708,8 @@
      "result": "200"
     },
     {
-     "url": "https://www.autocentrum.cz/nabidka-vozu/volkswagen/t-roc/nove/skladove-vozy/?viewType=personal",
-     "title": "Nabídka nových vozidel Volkswagen T-Roc skladem | Autocentrum BARTH",
+     "url": "https://www.autocentrum.cz/nabidka-vozu/volkswagen/?viewType=personal&amp;availability[0]=stock-in_production&amp;models[0]=1532&amp;models[1]=2449&amp;models[2]=2474&amp;models[3]=477&amp;models[4]=2471&amp;models[5]=2130&amp;models[6]=2131&amp;models[7]=417&amp;models[8]=377",
+     "title": "Nabídka vozů Volkswagen | Autocentrum BARTH",
      "result": "200"
     }
    ],
@@ -2059,39 +2059,14 @@
    "checked": [
     {
      "url": "https://www.automechanika.cz/",
-     "title": "Automechanika, a.s. Prostějov - prodej a servis vozidel značky Škoda - Automechanika, a.s. Prostějov",
-     "result": "200"
-    },
-    {
-     "url": "https://www.automechanika.cz/cs/akcni-nabidky",
-     "title": "Akční nabídky - Automechanika, a.s. Prostějov",
-     "result": "200"
-    },
-    {
-     "url": "https://www.automechanika.cz/cs/nove-vozy",
-     "title": "Nové vozy ŠKODA ihned k odběru - Automechanika, a.s. Prostějov",
-     "result": "200"
-    },
-    {
-     "url": "https://www.automechanika.cz/cs/ojete-vozy",
-     "title": "Automechanika, a.s. Prostějov",
-     "result": "200"
-    },
-    {
-     "url": "https://www.automechanika.cz/cs/ojete-vozy/aktualni-nabidka",
-     "title": "Prodej ojetých vozů - ŠKODA Plus - Automechanika, a.s. Prostějov",
-     "result": "200"
-    },
-    {
-     "url": "https://www.automechanika.cz/cs/ojete-vozy/jak-postupovat",
-     "title": "Profesionálně vybrané auto ŠKODA z druhé ruky - Automechanika, a.s. Prostějov",
-     "result": "200"
+     "title": "https://www.automechanika.cz/",
+     "result": "URLError: <urlopen error timed out>"
     }
    ],
-   "pages": 6,
-   "status": "Site propre accessible · contrôle partiel du stock",
-   "reachable": true,
-   "own_site_ok": true,
+   "pages": 0,
+   "status": "Non vérifiable · échec d’accès",
+   "reachable": false,
+   "own_site_ok": false,
    "portal_ok": false
   },
   {
@@ -2480,9 +2455,14 @@
      "url": "https://www.direct-auto.cz/pages/akcni-operativni-leasing-na-zanovni-a-ojeta-auta",
      "title": "Akční operativní leasing na zánovní a ojetá auta &ndash; Direct auto",
      "result": "200"
+    },
+    {
+     "url": "https://www.direct-auto.cz/products/skoda-octavia-2-0-tdi-110-kw-top-selection-44",
+     "title": "Škoda Octavia 2.0 TDI 110 kW Top Selection &ndash; Direct auto",
+     "result": "200"
     }
    ],
-   "pages": 2,
+   "pages": 3,
    "status": "Site propre accessible · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -2605,6 +2585,11 @@
      "result": "200"
     },
     {
+     "url": "https://horacke-autodruzstvo-trebic.skoda-auto.cz/skladove-vozy/skoda-octavia-sportline/tmbar8nx9vm017006/466908",
+     "title": "&#x160;koda Octavia Sportline | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://horacke-autodruzstvo-trebic.skoda-auto.cz/skladove-vozy/skoda-octavia-top-selection/tmbaj8nx7tm022533/458019",
      "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
      "result": "200"
@@ -2625,7 +2610,7 @@
      "result": "200"
     }
    ],
-   "pages": 13,
+   "pages": 14,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -3181,6 +3166,11 @@
      "result": "200"
     },
     {
+     "url": "https://www.tukas.cz/tukas-ojete-vozy/vykup-vozu",
+     "title": "Výkup vozů všech značek | Rychlé a férové jednání | TUkas Praha - TUkas",
+     "result": "200"
+    },
+    {
      "url": "https://www.tukas.cz/akcni-nabidky/vyzkousejte-dacia-duster-na-vlastni-kuzi",
      "title": "Vyzkoušejte Dacia Duster na vlastní kůži! - TUkas",
      "result": "200"
@@ -3188,11 +3178,6 @@
     {
      "url": "https://www.tukas.cz/akcni-nabidky/wallbox-vcetne-instalace-v-cene-vozu",
      "title": "Wallbox včetně instalace v ceně elektrického vozu Renault - TUkas",
-     "result": "200"
-    },
-    {
-     "url": "https://www.tukas.cz/tukas-ojete-vozy/vykup-vozu",
-     "title": "Výkup vozů všech značek | Rychlé a férové jednání | TUkas Praha - TUkas",
      "result": "200"
     },
     {
@@ -3843,7 +3828,17 @@
      "result": "200"
     },
     {
+     "url": "https://toman.skoda-auto.cz/skladove-vozy/skoda-octavia-rs/tmbav0nx2vm017510/466922",
+     "title": "&#x160;koda Octavia RS | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://toman.skoda-auto.cz/skladove-vozy/skoda-octavia-rs/tmbav0nx7vm012917/463954",
+     "title": "&#x160;koda Octavia RS | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
+     "url": "https://toman.skoda-auto.cz/skladove-vozy/skoda-octavia-rs/tmbav0nx9vm018136/466853",
      "title": "&#x160;koda Octavia RS | &#x160;koda Auto a.s.",
      "result": "200"
     },
@@ -3863,7 +3858,7 @@
      "result": "200"
     }
    ],
-   "pages": 6,
+   "pages": 8,
    "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": false,
@@ -4564,6 +4559,11 @@
      "result": "200"
     },
     {
+     "url": "https://horacke-autodruzstvo-trebic.skoda-auto.cz/skladove-vozy/skoda-octavia-sportline/tmbar8nx9vm017006/466908",
+     "title": "&#x160;koda Octavia Sportline | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://horacke-autodruzstvo-trebic.skoda-auto.cz/skladove-vozy/skoda-octavia-top-selection/tmbaj8nx7tm022533/458019",
      "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
      "result": "200"
@@ -4584,7 +4584,7 @@
      "result": "200"
     }
    ],
-   "pages": 13,
+   "pages": 14,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
