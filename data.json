@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-24T11:02:38+02:00",
+ "generated_at": "2026-10-25T11:19:53+02:00",
  "title": "Octavia Exclusive Selection",
- "subtitle": "Actualisation du 24/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
+ "subtitle": "Actualisation du 25/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
  "coverage": {
   "domains": 115,
-  "ok": 111,
-  "ko": 4,
-  "pages": 694,
+  "ok": 110,
+  "ko": 5,
+  "pages": 700,
   "own_site_ok": 99,
   "portal_ok": 51
  },
@@ -813,8 +813,8 @@
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/ojete/renault-trafic-equilibre-l2-blue-dci-150-mt6-p0888",
-     "title": "Renault Trafic Equilibre L2 Blue dCi 150 MT6/P0888 - autodobrovolny.cz",
+     "url": "https://www.autodobrovolny.cz/katalog/ojete/mg-cyberster-gt-275kw-375k-041740",
+     "title": "MG Cyberster GT (275kW/375k) / 041740 - autodobrovolny.cz",
      "result": "200"
     }
    ],
@@ -2622,14 +2622,14 @@
    "checked": [
     {
      "url": "https://www.inpro-caslav.cz/",
-     "title": "Inpro Čáslav | Inpro Čáslav",
-     "result": "200"
+     "title": "https://www.inpro-caslav.cz/",
+     "result": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     }
    ],
-   "pages": 1,
-   "status": "Site propre accessible · contrôle partiel du stock",
-   "reachable": true,
-   "own_site_ok": true,
+   "pages": 0,
+   "status": "Non vérifiable · échec d’accès",
+   "reachable": false,
+   "own_site_ok": false,
    "portal_ok": false
   },
   {
@@ -3146,11 +3146,6 @@
      "result": "200"
     },
     {
-     "url": "https://www.tukas.cz/akcni-nabidky/nove-volvo-xc40-xc60",
-     "title": "Nové Volvo XC40 a XC60 do výroby | Volvo TUkas - TUkas",
-     "result": "200"
-    },
-    {
      "url": "https://www.tukas.cz/tukas-ojete-vozy/vykup-vozu",
      "title": "Výkup vozů všech značek | Rychlé a férové jednání | TUkas Praha - TUkas",
      "result": "200"
@@ -3158,6 +3153,11 @@
     {
      "url": "https://www.tukas.cz/akcni-nabidky/wallbox-vcetne-instalace-v-cene-vozu",
      "title": "Wallbox včetně instalace v ceně elektrického vozu Renault - TUkas",
+     "result": "200"
+    },
+    {
+     "url": "https://www.tukas.cz/akcni-nabidky/nove-volvo-xc40-xc60",
+     "title": "Nové Volvo XC40 a XC60 do výroby | Volvo TUkas - TUkas",
      "result": "200"
     },
     {
@@ -4307,6 +4307,11 @@
      "result": "200"
     },
     {
+     "url": "https://beno.skoda-auto.cz/ojete-vozy/skoda-octavia-ambition/tmbjj7nx9my174494/469664",
+     "title": "&#x160;koda Octavia Ambition | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://beno.skoda-auto.cz/ojete-vozy/skoda-octavia-rs/tmbak8nx9my102195/468486",
      "title": "&#x160;koda Octavia RS | &#x160;koda Auto a.s.",
      "result": "200"
@@ -4317,7 +4322,7 @@
      "result": "200"
     }
    ],
-   "pages": 10,
+   "pages": 11,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -4329,8 +4334,33 @@
    "checked": [
     {
      "url": "https://www.dobecar.cz/",
-     "title": "https://www.dobecar.cz/",
-     "result": "URLError: <urlopen error timed out>"
+     "title": "DOBE - CAR s.r.o. | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
+     "url": "https://www.dobecar.cz/skoda-octavia-edice-30-let",
+     "title": "&#x160;koda Octavia Edice 30 let | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
+     "url": "https://www.dobecar.cz/nova-octavia-fleet",
+     "title": "Octavia pro velkoodb&#x11B;ratele | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
+     "url": "https://www.dobecar.cz/skladove-vozy",
+     "title": "Skladov&#xE9; vozy | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
+     "url": "https://www.dobecar.cz/ojete-vozy",
+     "title": "Ojet&#xE9; vozy | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
+     "url": "https://www.dobecar.cz/nejpoctivejsi-servis-pro-vas-vuz",
+     "title": "Poctiv&#xFD; servis | &#x160;koda Auto a.s.",
+     "result": "200"
     },
     {
      "url": "https://dobe-car.skoda-auto.cz/skladove-vozy",
@@ -4388,10 +4418,10 @@
      "result": "200"
     }
    ],
-   "pages": 11,
-   "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
+   "pages": 17,
+   "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
-   "own_site_ok": false,
+   "own_site_ok": true,
    "portal_ok": true
   },
   {
