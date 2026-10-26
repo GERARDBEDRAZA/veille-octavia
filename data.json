@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-25T11:19:53+02:00",
+ "generated_at": "2026-10-26T12:17:44+02:00",
  "title": "Octavia Exclusive Selection",
- "subtitle": "Actualisation du 25/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
+ "subtitle": "Actualisation du 26/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
  "coverage": {
   "domains": 115,
   "ok": 110,
   "ko": 5,
-  "pages": 700,
+  "pages": 698,
   "own_site_ok": 99,
   "portal_ok": 51
  },
@@ -660,11 +660,6 @@
      "result": "200"
     },
     {
-     "url": "https://autobrandys.skoda-auto.cz/skladove-vozy/skoda-octavia-sportline/tmbaj8nx5vm021691/469163",
-     "title": "&#x160;koda Octavia Sportline | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://autobrandys.skoda-auto.cz/ojete-vozy/skoda-octavia-exclusive-selection/tmbar8nx2sm058525/465896",
      "title": "&#x160;koda Octavia Exclusive Selection | &#x160;koda Auto a.s.",
      "result": "200"
@@ -690,7 +685,7 @@
      "result": "200"
     }
    ],
-   "pages": 10,
+   "pages": 9,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -813,8 +808,8 @@
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/ojete/mg-cyberster-gt-275kw-375k-041740",
-     "title": "MG Cyberster GT (275kW/375k) / 041740 - autodobrovolny.cz",
+     "url": "https://www.autodobrovolny.cz/katalog/ojete/renault-trafic-equilibre-l2-blue-dci-150-mt6-p0888",
+     "title": "Renault Trafic Equilibre L2 Blue dCi 150 MT6/P0888 - autodobrovolny.cz",
      "result": "200"
     }
    ],
@@ -3920,11 +3915,6 @@
      "result": "200"
     },
     {
-     "url": "https://mencik.skoda-auto.cz/skladove-vozy/skoda-octavia-rs/tmbav8nx2tm051247/450722",
-     "title": "&#x160;koda Octavia RS | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://mencik.skoda-auto.cz/ojete-vozy/skoda-octavia-rs-rs/tmbav8nx2tm051247/463368",
      "title": "&#x160;koda Octavia RS RS | &#x160;koda Auto a.s.",
      "result": "200"
@@ -3960,7 +3950,7 @@
      "result": "200"
     }
    ],
-   "pages": 16,
+   "pages": 15,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -4875,7 +4865,7 @@
     {
      "url": "https://www.autodum-vrana.cz/",
      "title": "https://www.autodum-vrana.cz/",
-     "result": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
     }
    ],
    "pages": 0,
