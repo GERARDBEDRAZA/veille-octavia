@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-26T12:17:44+02:00",
+ "generated_at": "2026-10-27T11:59:17+02:00",
  "title": "Octavia Exclusive Selection",
- "subtitle": "Actualisation du 26/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
+ "subtitle": "Actualisation du 27/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
  "coverage": {
   "domains": 115,
-  "ok": 110,
-  "ko": 5,
-  "pages": 698,
-  "own_site_ok": 99,
+  "ok": 109,
+  "ko": 6,
+  "pages": 677,
+  "own_site_ok": 96,
   "portal_ok": 51
  },
  "coverage_note": "Le passage combine une recherche indexée par domaine, l’ouverture des accueils et jusqu’à cinq liens de stock prioritaires par site, puis la lecture des annonces détectées. La pagination complète, les stocks chargés uniquement par JavaScript et les sites bloqués ne sont pas entièrement contrôlés. « Aucune offre retenue » ne signifie pas « aucun véhicule en stock ». La disponibilité physique n’a pas été confirmée auprès des vendeurs.",
@@ -798,11 +798,6 @@
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/predvadeci-jizda",
-     "title": "Předváděcí jízda - autodobrovolny.cz",
-     "result": "200"
-    },
-    {
      "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-frontera-edition-electric-elektromotor-83kw-113k-00875",
      "title": "Opel Frontera Edition Electric Elektromotor (83kW/113k)/D234DK - autodobrovolny.cz",
      "result": "200"
@@ -810,6 +805,11 @@
     {
      "url": "https://www.autodobrovolny.cz/katalog/ojete/renault-trafic-equilibre-l2-blue-dci-150-mt6-p0888",
      "title": "Renault Trafic Equilibre L2 Blue dCi 150 MT6/P0888 - autodobrovolny.cz",
+     "result": "200"
+    },
+    {
+     "url": "https://www.autodobrovolny.cz/katalog/ojete/mg-cyberster-gt-275kw-375k-041740",
+     "title": "MG Cyberster GT (275kW/375k) / 041740 - autodobrovolny.cz",
      "result": "200"
     }
    ],
@@ -1542,13 +1542,8 @@
    "checked": [
     {
      "url": "https://auto-styl.cz/",
-     "title": "O nás | AUTO STYL - autorizovaný prodejce vozů",
-     "result": "200"
-    },
-    {
-     "url": "https://auto-styl.cz/2026/09/11/octavia_30let/",
-     "title": "Škoda Octavia edice 30 let | AUTO STYL - autorizovaný prodejce vozů",
-     "result": "200"
+     "title": "https://auto-styl.cz/",
+     "result": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     },
     {
      "url": "https://auto-styl.skoda-auto.cz/skladove-vozy",
@@ -1601,10 +1596,10 @@
      "result": "200"
     }
    ],
-   "pages": 12,
-   "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
+   "pages": 10,
+   "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
    "reachable": true,
-   "own_site_ok": true,
+   "own_site_ok": false,
    "portal_ok": true
   },
   {
@@ -1741,27 +1736,27 @@
     },
     {
      "url": "https://www.autocentrum-jc.cz/obchod/swoof/model-octavia/typ-nove/znacka-skoda/",
-     "title": "Vyhledávání vozů - AUTOCENTRUM Jičín",
+     "title": "Nové vozy skladem - AUTOCENTRUM Jičín",
      "result": "200"
     },
     {
      "url": "https://www.autocentrum-jc.cz/obchod/?swoof=1&amp;pa_typ=ojete",
-     "title": "Vyhledávání vozů - AUTOCENTRUM Jičín",
+     "title": "Nové vozy skladem - AUTOCENTRUM Jičín",
      "result": "200"
     },
     {
      "url": "https://www.autocentrum-jc.cz/obchod/?swoof=1&amp;pa_typ=ojete&amp;min_price=50000&amp;max_price=400000&amp;really_curr_tax=439-pa_typ",
-     "title": "Vyhledávání vozů - AUTOCENTRUM Jičín",
+     "title": "Nové vozy skladem - AUTOCENTRUM Jičín",
      "result": "200"
     },
     {
      "url": "https://www.autocentrum-jc.cz/obchod/?swoof=1&amp;pa_typ=ojete&amp;min_price=50000&amp;max_price=600000&amp;really_curr_tax=439-pa_typ",
-     "title": "Vyhledávání vozů - AUTOCENTRUM Jičín",
+     "title": "Nové vozy skladem - AUTOCENTRUM Jičín",
      "result": "200"
     },
     {
      "url": "https://www.autocentrum-jc.cz/obchod/?swoof=1&amp;pa_typ=ojete&amp;pa_palivo=benzin",
-     "title": "Vyhledávání vozů - AUTOCENTRUM Jičín",
+     "title": "Nové vozy skladem - AUTOCENTRUM Jičín",
      "result": "200"
     }
    ],
@@ -2190,39 +2185,14 @@
    "checked": [
     {
      "url": "https://www.srachta-autoservis.cz/",
-     "title": "�KODA, Autoservis �rachta s.r.o.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.srachta-autoservis.cz/index.php?par=skladove_vozy_skoda&menu=skoda",
-     "title": "�KODA, Autoservis �rachta s.r.o.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.srachta-autoservis.cz/index.php?par=skladove_vozy_skoda&amp;art=110&amp;menu=skoda",
-     "title": "�KODA, Autoservis �rachta s.r.o.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.srachta-autoservis.cz/index.php?par=skladove_vozy_skoda&amp;art=112&amp;menu=skoda",
-     "title": "�KODA, Autoservis �rachta s.r.o.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.srachta-autoservis.cz/index.php?par=skladove_vozy_skoda&amp;art=111&amp;menu=skoda",
-     "title": "�KODA, Autoservis �rachta s.r.o.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.srachta-autoservis.cz/index.php?par=skladove_vozy_skoda&amp;art=107&amp;menu=skoda",
-     "title": "�KODA, Autoservis �rachta s.r.o.",
-     "result": "200"
+     "title": "https://www.srachta-autoservis.cz/",
+     "result": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     }
    ],
-   "pages": 6,
-   "status": "Site propre accessible · contrôle partiel du stock",
-   "reachable": true,
-   "own_site_ok": true,
+   "pages": 0,
+   "status": "Non vérifiable · échec d’accès",
+   "reachable": false,
+   "own_site_ok": false,
    "portal_ok": false
   },
   {
@@ -2545,6 +2515,11 @@
      "result": "200"
     },
     {
+     "url": "https://www.hadtr.cz/hst-fanouskovska-nabidka",
+     "title": "HST fanou&#x161;kovsk&#xE1; nab&#xED;dka | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://www.hadtr.cz/skoda-octavia-edice-30-let",
      "title": "&#x160;koda Octavia Edice 30 let | &#x160;koda Auto a.s.",
      "result": "200"
@@ -2562,11 +2537,6 @@
     {
      "url": "https://www.hadtr.cz/ojete-vozy",
      "title": "Ojet&#xE9; vozy | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.hadtr.cz/prodlouzena-zaruka-pro-ojete-vozy",
-     "title": "Prodlou&#x17E;en&#xE1; z&#xE1;ruka pro ojet&#xE9; vozy | &#x160;koda Auto a.s.",
      "result": "200"
     },
     {
@@ -2617,14 +2587,14 @@
    "checked": [
     {
      "url": "https://www.inpro-caslav.cz/",
-     "title": "https://www.inpro-caslav.cz/",
-     "result": "URLError: <urlopen error [Errno 101] Network is unreachable>"
+     "title": "Inpro Čáslav | Inpro Čáslav",
+     "result": "200"
     }
    ],
-   "pages": 0,
-   "status": "Non vérifiable · échec d’accès",
-   "reachable": false,
-   "own_site_ok": false,
+   "pages": 1,
+   "status": "Site propre accessible · contrôle partiel du stock",
+   "reachable": true,
+   "own_site_ok": true,
    "portal_ok": false
   },
   {
@@ -2762,14 +2732,9 @@
      "url": "https://kontakt-turnov.skoda-auto.cz/ojete-vozy",
      "title": "Ojet&#xE9; vozy | &#x160;koda Auto a.s.",
      "result": "200"
-    },
-    {
-     "url": "https://kontakt-turnov.skoda-auto.cz/skladove-vozy/skoda-octavia-selection/tmbaa8nx6vm025023/469636",
-     "title": "&#x160;koda Octavia Selection | &#x160;koda Auto a.s.",
-     "result": "200"
     }
    ],
-   "pages": 4,
+   "pages": 3,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -2974,14 +2939,9 @@
      "url": "https://porsche-interauto.cz/",
      "title": "Úvodní stránka | Porsche Inter Auto CZ",
      "result": "200"
-    },
-    {
-     "url": "https://porsche-interauto.cz/akcni-nabidky",
-     "title": "Nabídka akčních vozů | Porsche Inter Auto CZ",
-     "result": "200"
     }
    ],
-   "pages": 2,
+   "pages": 1,
    "status": "Site propre accessible · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -3136,6 +3096,11 @@
      "result": "200"
     },
     {
+     "url": "https://www.tukas.cz/akcni-nabidky/wallbox-vcetne-instalace-v-cene-vozu",
+     "title": "Wallbox včetně instalace v ceně elektrického vozu Renault - TUkas",
+     "result": "200"
+    },
+    {
      "url": "https://www.tukas.cz/akcni-nabidky/dny-vyhod-dacia",
      "title": "Dny výhod Dacia - TUkas",
      "result": "200"
@@ -3143,11 +3108,6 @@
     {
      "url": "https://www.tukas.cz/tukas-ojete-vozy/vykup-vozu",
      "title": "Výkup vozů všech značek | Rychlé a férové jednání | TUkas Praha - TUkas",
-     "result": "200"
-    },
-    {
-     "url": "https://www.tukas.cz/akcni-nabidky/wallbox-vcetne-instalace-v-cene-vozu",
-     "title": "Wallbox včetně instalace v ceně elektrického vozu Renault - TUkas",
      "result": "200"
     },
     {
@@ -3189,39 +3149,14 @@
    "checked": [
     {
      "url": "https://www.vistacar.cz/",
-     "title": "Škoda, Hyundai - VISTA car - autorizovaný partner",
-     "result": "200"
-    },
-    {
-     "url": "https://www.vistacar.cz/predvadeci-vozy-skoda-epiq.html?form_id=filter",
-     "title": "Předváděcí vozy Škoda Epiq - VISTA car",
-     "result": "200"
-    },
-    {
-     "url": "https://www.vistacar.cz/skladove-vozy.html?form_id=filter&model%5B0%5D=bayon&model%5B1%5D=i20&page=1",
-     "title": "Skladové vozy - VISTA car",
-     "result": "200"
-    },
-    {
-     "url": "https://www.vistacar.cz/skladove-vozy-skoda.html",
-     "title": "Skladové vozy Škoda - VISTA car",
-     "result": "200"
-    },
-    {
-     "url": "https://www.vistacar.cz/skladove-vozy.html?form_id=filter&znacka%5B%5D=hyundai&model%5B%5D=i30-hatchback&model%5B%5D=i30-kombi",
-     "title": "Skladové vozy - VISTA car",
-     "result": "200"
-    },
-    {
-     "url": "https://www.vistacar.cz/ojete-vozy-hodonin.html",
-     "title": "Ojeté vozy Hodonín - VISTA car",
-     "result": "200"
+     "title": "https://www.vistacar.cz/",
+     "result": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     }
    ],
-   "pages": 6,
-   "status": "Site propre accessible · contrôle partiel du stock",
-   "reachable": true,
-   "own_site_ok": true,
+   "pages": 0,
+   "status": "Non vérifiable · échec d’accès",
+   "reachable": false,
+   "own_site_ok": false,
    "portal_ok": false
   },
   {
@@ -3737,6 +3672,11 @@
      "result": "200"
     },
     {
+     "url": "https://strz.skoda-auto.cz/skladove-vozy/skoda-octavia-exclusive-selection/tmbar0nx0vm023472/469720",
+     "title": "&#x160;koda Octavia Exclusive Selection | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://strz.skoda-auto.cz/ojete-vozy/skoda-octavia-rs/tmbjv8nx8ty014714/463603",
      "title": "&#x160;koda Octavia RS | &#x160;koda Auto a.s.",
      "result": "200"
@@ -3757,7 +3697,7 @@
      "result": "200"
     }
    ],
-   "pages": 12,
+   "pages": 13,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -4186,33 +4126,8 @@
    "checked": [
     {
      "url": "https://www.autosport-kucera.cz/",
-     "title": "AUTOSPORT KU&#x10C;ERA &#x2013; Liberec | &#x160;koda Auto a.s. | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autosport-kucera.cz/skoda-octavia-edice-30-let",
-     "title": "AUTOSPORT KU&#x10C;ERA &#x2013; Liberec | &#x160;koda Auto a.s. | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autosport-kucera.cz/nova-octavia-fleet",
-     "title": "AUTOSPORT KU&#x10C;ERA &#x2013; Liberec | &#x160;koda Auto a.s. | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autosport-kucera.cz/skladove-vozy",
-     "title": "AUTOSPORT KU&#x10C;ERA &#x2013; Liberec | &#x160;koda Auto a.s. | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autosport-kucera.cz/ojete-vozy",
-     "title": "AUTOSPORT KU&#x10C;ERA &#x2013; Liberec | &#x160;koda Auto a.s. | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autosport-kucera.cz/nejpoctivejsi-servis-pro-vas-vuz",
-     "title": "AUTOSPORT KU&#x10C;ERA &#x2013; Liberec | &#x160;koda Auto a.s. | &#x160;koda Auto a.s.",
-     "result": "200"
+     "title": "https://www.autosport-kucera.cz/",
+     "result": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     },
     {
      "url": "https://autosport.skoda-auto.cz/skladove-vozy",
@@ -4230,10 +4145,10 @@
      "result": "200"
     }
    ],
-   "pages": 9,
-   "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
+   "pages": 3,
+   "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
    "reachable": true,
-   "own_site_ok": true,
+   "own_site_ok": false,
    "portal_ok": true
   },
   {
@@ -4424,6 +4339,11 @@
      "result": "200"
     },
     {
+     "url": "https://www.hadtr.cz/hst-fanouskovska-nabidka",
+     "title": "HST fanou&#x161;kovsk&#xE1; nab&#xED;dka | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://www.hadtr.cz/skoda-octavia-edice-30-let",
      "title": "&#x160;koda Octavia Edice 30 let | &#x160;koda Auto a.s.",
      "result": "200"
@@ -4441,11 +4361,6 @@
     {
      "url": "https://www.hadtr.cz/ojete-vozy",
      "title": "Ojet&#xE9; vozy | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
-     "url": "https://www.hadtr.cz/prodlouzena-zaruka-pro-ojete-vozy",
-     "title": "Prodlou&#x17E;en&#xE1; z&#xE1;ruka pro ojet&#xE9; vozy | &#x160;koda Auto a.s.",
      "result": "200"
     },
     {
@@ -4995,11 +4910,6 @@
      "result": "200"
     },
     {
-     "url": "https://autoplusmost.skoda-auto.cz/skladove-vozy/skoda-octavia-rs/tmbav8nx9vm024081/469346",
-     "title": "&#x160;koda Octavia RS | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://autoplusmost.skoda-auto.cz/skladove-vozy/skoda-octavia-sportline/tmbar8nx5vm008027/462987",
      "title": "&#x160;koda Octavia Sportline | &#x160;koda Auto a.s.",
      "result": "200"
@@ -5030,7 +4940,7 @@
      "result": "200"
     }
    ],
-   "pages": 11,
+   "pages": 10,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -5043,7 +4953,7 @@
     {
      "url": "https://www.autoservisjindra.cz/",
      "title": "https://www.autoservisjindra.cz/",
-     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
+     "result": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     },
     {
      "url": "https://autoservisjindra.skoda-auto.cz/skladove-vozy",
