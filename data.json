@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-31T12:33:29+02:00",
+ "generated_at": "2026-11-01T13:25:38+02:00",
  "title": "Octavia Exclusive Selection",
- "subtitle": "Actualisation du 31/10/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
+ "subtitle": "Actualisation du 01/11/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
  "coverage": {
   "domains": 115,
   "ok": 111,
@@ -205,7 +205,7 @@
    "price": 859900,
    "currency": "CZK",
    "km": 11188,
-   "status": "Annonce publiée · liftback 01/2025",
+   "status": "Signalée vendue ou réservée (à vérifier)",
    "vin": "TMBAJ8NX4SY081319",
    "details": "Exclusive Selection, diesel 110 kW, automatique 7 rapports. Les équipements prioritaires doivent être contrôlés par VIN ; aucune validation complète du pack demandé.",
    "url": "https://www.direct-auto.cz/products/skoda-octavia-2-0-tdi-110-kw-excl-selection-2"
@@ -809,18 +809,18 @@
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-vivaro-l1-m-panel-van-2-2-cdti-150k-mt6-46022",
-     "title": "Opel Vivaro L1 (M) Panel Van 2.2 CDTi 150k MT6/46022 - autodobrovolny.cz",
-     "result": "200"
-    },
-    {
      "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-frontera-edition-electric-elektromotor-83kw-113k-00875",
      "title": "Opel Frontera Edition Electric Elektromotor (83kW/113k)/D234DK - autodobrovolny.cz",
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/ojete/renault-trafic-equilibre-l2-blue-dci-150-mt6-p0888",
-     "title": "Renault Trafic Equilibre L2 Blue dCi 150 MT6/P0888 - autodobrovolny.cz",
+     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-vivaro-l1-m-panel-van-2-2-cdti-150k-mt6-46022",
+     "title": "Opel Vivaro L1 (M) Panel Van 2.2 CDTi 150k MT6/46022 - autodobrovolny.cz",
+     "result": "200"
+    },
+    {
+     "url": "https://www.autodobrovolny.cz/katalog/ojete/mg-cyberster-gt-275kw-375k-041740",
+     "title": "MG Cyberster GT (275kW/375k) / 041740 - autodobrovolny.cz",
      "result": "200"
     }
    ],
@@ -3132,28 +3132,28 @@
      "result": "200"
     },
     {
-     "url": "https://www.tukas.cz/akcni-nabidky/nove-volvo-xc40-xc60",
-     "title": "Nové Volvo XC40 a XC60 do výroby | Volvo TUkas - TUkas",
-     "result": "200"
-    },
-    {
      "url": "https://www.tukas.cz/tukas-ojete-vozy/vykup-vozu",
      "title": "Výkup vozů všech značek | Rychlé a férové jednání | TUkas Praha - TUkas",
      "result": "200"
     },
     {
-     "url": "https://www.tukas.cz/akcni-nabidky/dny-vyhod-dacia",
-     "title": "Dny výhod Dacia - TUkas",
-     "result": "200"
-    },
-    {
-     "url": "https://www.tukas.cz/akcni-nabidky/wallbox-vcetne-instalace-v-cene-vozu",
-     "title": "Wallbox včetně instalace v ceně elektrického vozu Renault - TUkas",
+     "url": "https://www.tukas.cz/akcni-nabidky/nove-volvo-xc40-xc60",
+     "title": "Nové Volvo XC40 a XC60 do výroby | Volvo TUkas - TUkas",
      "result": "200"
     },
     {
      "url": "http://www.tukas.cz/tukas-ojete-vozy/vykup-vozu",
      "title": "Výkup vozů všech značek | Rychlé a férové jednání | TUkas Praha - TUkas",
+     "result": "200"
+    },
+    {
+     "url": "https://www.tukas.cz/vozidla/skoda-octavia-2-0-tdi-selection-1",
+     "title": "Škoda Octavia 2.0 TDI Selection - TUkas",
+     "result": "200"
+    },
+    {
+     "url": "http://www.tukas.cz/akcni-nabidky",
+     "title": "Akční nabídky - TUkas",
      "result": "200"
     }
    ],
