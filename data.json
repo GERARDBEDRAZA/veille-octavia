@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-11T14:02:44+02:00",
+ "generated_at": "2026-11-12T14:54:54+02:00",
  "title": "Octavia Exclusive Selection",
- "subtitle": "Actualisation du 11/11/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
+ "subtitle": "Actualisation du 12/11/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
  "coverage": {
   "domains": 115,
-  "ok": 111,
-  "ko": 4,
-  "pages": 701,
-  "own_site_ok": 100,
+  "ok": 109,
+  "ko": 6,
+  "pages": 681,
+  "own_site_ok": 97,
   "portal_ok": 51
  },
  "coverage_note": "Le passage combine une recherche indexée par domaine, l’ouverture des accueils et jusqu’à cinq liens de stock prioritaires par site, puis la lecture des annonces détectées. La pagination complète, les stocks chargés uniquement par JavaScript et les sites bloqués ne sont pas entièrement contrôlés. « Aucune offre retenue » ne signifie pas « aucun véhicule en stock ». La disponibilité physique n’a pas été confirmée auprès des vendeurs.",
@@ -772,14 +772,9 @@
      "url": "https://branka.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbjr8nx0ry029074/470912",
      "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
      "result": "200"
-    },
-    {
-     "url": "https://branka.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbjr8nx4ty018487/467061",
-     "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
-     "result": "200"
     }
    ],
-   "pages": 8,
+   "pages": 7,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -826,18 +821,18 @@
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-vivaro-l1-m-panel-van-2-2-cdti-150k-mt6-46022",
-     "title": "Opel Vivaro L1 (M) Panel Van 2.2 CDTi 150k MT6/46022 - autodobrovolny.cz",
-     "result": "200"
-    },
-    {
      "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-frontera-edition-electric-elektromotor-83kw-113k-00875",
      "title": "Opel Frontera Edition Electric Elektromotor (83kW/113k)/D234DK - autodobrovolny.cz",
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/ojete/mg-cyberster-gt-275kw-375k-041740",
-     "title": "MG Cyberster GT (275kW/375k) / 041740 - autodobrovolny.cz",
+     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-vivaro-l1-m-panel-van-2-2-cdti-150k-mt6-46022",
+     "title": "Opel Vivaro L1 (M) Panel Van 2.2 CDTi 150k MT6/46022 - autodobrovolny.cz",
+     "result": "200"
+    },
+    {
+     "url": "https://www.autodobrovolny.cz/katalog/ojete/renault-trafic-equilibre-l2-blue-dci-150-mt6-p0888",
+     "title": "Renault Trafic Equilibre L2 Blue dCi 150 MT6/P0888 - autodobrovolny.cz",
      "result": "200"
     }
    ],
@@ -982,13 +977,8 @@
    "checked": [
     {
      "url": "https://hlavacek.cz",
-     "title": "AUTO Hlaváček | Nové a ojeté vozy, servis a leasing",
-     "result": "200"
-    },
-    {
-     "url": "https://hlavacek.cz/novinka.php?slug=pripravte-svuj-vuz-na-zimu-jiz-od-499-kc",
-     "title": "Připravte svůj vůz na zimu již od 499 Kč | AUTO Hlaváček",
-     "result": "200"
+     "title": "https://hlavacek.cz",
+     "result": "HTTP 503"
     },
     {
      "url": "https://hlavacek.skoda-auto.cz/skladove-vozy",
@@ -1011,10 +1001,10 @@
      "result": "200"
     }
    ],
-   "pages": 6,
-   "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
+   "pages": 4,
+   "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
    "reachable": true,
-   "own_site_ok": true,
+   "own_site_ok": false,
    "portal_ok": true
   },
   {
@@ -1027,8 +1017,13 @@
      "result": "200"
     },
     {
+     "url": "https://www.autohybes.cz/skladove-vozy-mg/",
+     "title": "Skladové vozy MG | Pardubice, Chrudim | | Auto Hybeš",
+     "result": "200"
+    },
+    {
      "url": "https://www.autohybes.cz/referencni-vozy-kia/",
-     "title": "Referenční vozy Kia | Auto Hybeš",
+     "title": "Referenční a zánovní vozy Kia | Auto Hybeš",
      "result": "200"
     },
     {
@@ -1044,11 +1039,6 @@
     {
      "url": "https://www.autohybes.cz/leona-machalkova-a-jeji-nova-skoda-octavia-alias-mana/",
      "title": "Předání ŠKODA OCTAVIA: Leona Machálková | Auto Hybeš",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autohybes.cz/predvadeci-vozy-skoda-2026-vyprodej/",
-     "title": "Předváděcí vozy Škoda | Slevy až 358 000 Kč | Auto Hybeš",
      "result": "200"
     },
     {
@@ -1145,39 +1135,14 @@
    "checked": [
     {
      "url": "https://www.autojarov.cz/",
-     "title": "AUTO JAROV",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autojarov.cz/nabidka-vozu/",
-     "title": "Vyhledávač vozidel | AUTO JAROV",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autojarov.cz/operativni-leasing/nabidka-vozidel/",
-     "title": "Vyhledávač operativního leasingu | AUTO JAROV",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autojarov.cz/nabidka-motocyklu/",
-     "title": "Vyhledávač motocyklů | AUTO JAROV",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autojarov.cz/nabidka-vozu/typy_nove/",
-     "title": "Vyhledávač vozidel | AUTO JAROV",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autojarov.cz/nabidka-vozu/typy_ojete/",
-     "title": "Vyhledávač vozidel | AUTO JAROV",
-     "result": "200"
+     "title": "https://www.autojarov.cz/",
+     "result": "URLError: <urlopen error timed out>"
     }
    ],
-   "pages": 6,
-   "status": "Site propre accessible · contrôle partiel du stock",
-   "reachable": true,
-   "own_site_ok": true,
+   "pages": 0,
+   "status": "Non vérifiable · échec d’accès",
+   "reachable": false,
+   "own_site_ok": false,
    "portal_ok": false
   },
   {
@@ -1376,39 +1341,14 @@
    "checked": [
     {
      "url": "https://www.autopalace.cz/",
-     "title": "AutoPalace: Prodej automobilů, výkup a servis na jednom místě",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autopalace.cz/skladove-vozy/",
-     "title": "Skladové vozy - široká nabídka aut skladem | AutoPalace",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autopalace.cz/operativni-leasing/nabidka-vozidel/",
-     "title": "Operativní leasing: Široká nabídka aut na operák | AutoPalace",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autopalace.cz/nove-vozy/",
-     "title": "Nové vozy | AutoPalace",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autopalace.cz/skladove-vozy/typy_nove/",
-     "title": "Nové a předváděcí vozy na prodej za akční ceny | AutoPalace",
-     "result": "200"
-    },
-    {
-     "url": "https://www.autopalace.cz/nove-vozy/testovaci-jizda/",
-     "title": "Objednejte si testovací jízdu | AutoPalace",
-     "result": "200"
+     "title": "https://www.autopalace.cz/",
+     "result": "URLError: <urlopen error timed out>"
     }
    ],
-   "pages": 6,
-   "status": "Site propre accessible · contrôle partiel du stock",
-   "reachable": true,
-   "own_site_ok": true,
+   "pages": 0,
+   "status": "Non vérifiable · échec d’accès",
+   "reachable": false,
+   "own_site_ok": false,
    "portal_ok": false
   },
   {
@@ -1523,11 +1463,6 @@
      "result": "200"
     },
     {
-     "url": "https://stepanek.skoda-auto.cz/skladove-vozy/skoda-octavia-rs/tmbav0nxxvm029887/472176",
-     "title": "&#x160;koda Octavia RS | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://stepanek.skoda-auto.cz/skladove-vozy/skoda-octavia-sportline/tmbar8nx2vm009779/463516",
      "title": "&#x160;koda Octavia Sportline | &#x160;koda Auto a.s.",
      "result": "200"
@@ -1558,7 +1493,7 @@
      "result": "200"
     }
    ],
-   "pages": 15,
+   "pages": 14,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -1819,12 +1754,17 @@
      "result": "200"
     },
     {
+     "url": "https://lukas.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbjr8nxxsy100982/472594",
+     "title": "&#x160;koda Octavia Selection | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://lukas.skoda-auto.cz/ojete-vozy/skoda-octavia-sportline/tmbar8nx9tm006312/465293",
      "title": "&#x160;koda Octavia SportLine | &#x160;koda Auto a.s.",
      "result": "200"
     }
    ],
-   "pages": 4,
+   "pages": 5,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -2296,14 +2236,9 @@
      "url": "https://paulus.skoda-auto.cz/ojete-vozy/skoda-octavia-sportline/tmbjr8nx7ty010061/471465",
      "title": "&#x160;koda Octavia SportLine | &#x160;koda Auto a.s.",
      "result": "200"
-    },
-    {
-     "url": "https://paulus.skoda-auto.cz/ojete-vozy/skoda-octavia-style/tmbaj7ne8j0006516/471494",
-     "title": "&#x160;koda Octavia Style | &#x160;koda Auto a.s.",
-     "result": "200"
     }
    ],
-   "pages": 9,
+   "pages": 8,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -2786,8 +2721,8 @@
      "result": "200"
     },
     {
-     "url": "https://karireal.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbjr8nxxty032605/471398",
-     "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
+     "url": "https://karireal.skoda-auto.cz/ojete-vozy/skoda-octavia-sportline/tmbjj8nx2ty007740/472795",
+     "title": "&#x160;koda Octavia SportLine | &#x160;koda Auto a.s.",
      "result": "200"
     }
    ],
@@ -2942,12 +2877,12 @@
      "result": "200"
     },
     {
-     "url": "https://okim.skoda-auto.cz/ojete-vozy/skoda-octavia-ambition-plus/tmbag8nx8py037958/472311",
-     "title": "&#x160;koda Octavia Ambition Plus | &#x160;koda Auto a.s.",
+     "url": "https://okim.skoda-auto.cz/ojete-vozy/skoda-octavia-bussines/tmbjj8nx2ty006085/472742",
+     "title": "&#x160;koda Octavia Bussines | &#x160;koda Auto a.s.",
      "result": "200"
     },
     {
-     "url": "https://okim.skoda-auto.cz/ojete-vozy/skoda-octavia-bussines/tmbjr8nx4sy122007/472078",
+     "url": "https://okim.skoda-auto.cz/ojete-vozy/skoda-octavia-bussines/tmbjr8nx6ty009189/472788",
      "title": "&#x160;koda Octavia Bussines | &#x160;koda Auto a.s.",
      "result": "200"
     },
@@ -2955,14 +2890,9 @@
      "url": "https://okim.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbjr8nx3sy013800/472524",
      "title": "&#x160;koda Octavia Selection | &#x160;koda Auto a.s.",
      "result": "200"
-    },
-    {
-     "url": "https://okim.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbjr8nx5ty026047/472080",
-     "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
-     "result": "200"
     }
    ],
-   "pages": 8,
+   "pages": 7,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -3075,11 +3005,6 @@
      "result": "200"
     },
     {
-     "url": "https://prerost-a-svorc.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbav0nx7tm014194/470798",
-     "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://prerost-a-svorc.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbjr8nx0ty012170/471021",
      "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
      "result": "200"
@@ -3095,7 +3020,7 @@
      "result": "200"
     }
    ],
-   "pages": 12,
+   "pages": 11,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -3194,6 +3119,11 @@
      "result": "200"
     },
     {
+     "url": "https://www.tukas.cz/tukas-ojete-vozy/vykup-vozu",
+     "title": "Výkup vozů všech značek | Rychlé a férové jednání | TUkas Praha - TUkas",
+     "result": "200"
+    },
+    {
      "url": "https://www.tukas.cz/akcni-nabidky/zimni-prislusenstvi-opel-se-slevou-30",
      "title": "Zimní příslušenství Opel se slevou 30 % - TUkas",
      "result": "200"
@@ -3204,13 +3134,8 @@
      "result": "200"
     },
     {
-     "url": "https://www.tukas.cz/tukas-ojete-vozy/vykup-vozu",
-     "title": "Výkup vozů všech značek | Rychlé a férové jednání | TUkas Praha - TUkas",
-     "result": "200"
-    },
-    {
-     "url": "https://www.tukas.cz/akcni-nabidky/nove-volvo-xc40-xc60",
-     "title": "Nové Volvo XC40 a XC60 do výroby | Volvo TUkas - TUkas",
+     "url": "https://www.tukas.cz/akcni-nabidky/akcni-edice-family",
+     "title": "Volkswagen Family – bohatá výbava za akční cenu - TUkas",
      "result": "200"
     },
     {
@@ -3337,12 +3262,17 @@
      "result": "200"
     },
     {
+     "url": "https://brejla.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbjg7ne4h0024701/472792",
+     "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://brejla.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbjg8nx6ny080661/470692",
      "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
      "result": "200"
     }
    ],
-   "pages": 11,
+   "pages": 12,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -3434,17 +3364,12 @@
      "result": "200"
     },
     {
-     "url": "https://cerveny.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbar8nx2sm052210/454978",
-     "title": "&#x160;koda Octavia Selection | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://cerveny.skoda-auto.cz/ojete-vozy/skoda-octavia-style/tmbag7ne6j0111411/463414",
      "title": "&#x160;koda Octavia Style | &#x160;koda Auto a.s.",
      "result": "200"
     }
    ],
-   "pages": 10,
+   "pages": 9,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -3658,6 +3583,11 @@
      "result": "200"
     },
     {
+     "url": "https://gremos.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbar8nx6sm013961/406429",
+     "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://gremos.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbar8nx7tm007880/469312",
      "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
      "result": "200"
@@ -3673,7 +3603,7 @@
      "result": "200"
     }
    ],
-   "pages": 5,
+   "pages": 6,
    "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": false,
@@ -3813,7 +3743,7 @@
     {
      "url": "https://www.autotoman.cz/",
      "title": "https://www.autotoman.cz/",
-     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.au"
+     "result": "URLError: <urlopen error timed out>"
     },
     {
      "url": "https://toman.skoda-auto.cz/skladove-vozy",
@@ -3953,6 +3883,11 @@
      "result": "200"
     },
     {
+     "url": "https://mencik.skoda-auto.cz/ojete-vozy/skoda-octavia-exclusive-selection/tmbjj8nx1ty032872/472716",
+     "title": "&#x160;koda Octavia Exclusive Selection | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://mencik.skoda-auto.cz/ojete-vozy/skoda-octavia-rs-rs/tmbav8nx2tm051247/463368",
      "title": "&#x160;koda Octavia RS RS | &#x160;koda Auto a.s.",
      "result": "200"
@@ -3983,7 +3918,7 @@
      "result": "200"
     }
    ],
-   "pages": 14,
+   "pages": 15,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -4075,17 +4010,12 @@
      "result": "200"
     },
     {
-     "url": "https://f3k.skoda-auto.cz/ojete-vozy/skoda-octavia-first-edition/tmbaj8nx4sy006555/396255",
-     "title": "&#x160;koda Octavia First Edition | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://f3k.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbag8nx7sm057232/456149",
      "title": "&#x160;koda Octavia Selection | &#x160;koda Auto a.s.",
      "result": "200"
     }
    ],
-   "pages": 10,
+   "pages": 9,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -4439,14 +4369,9 @@
      "url": "https://dobe-car.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbaa8nx3tm025767/466056",
      "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
      "result": "200"
-    },
-    {
-     "url": "https://dobe-car.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbar8nx5tm009479/463425",
-     "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
-     "result": "200"
     }
    ],
-   "pages": 17,
+   "pages": 16,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -4681,11 +4606,6 @@
      "result": "200"
     },
     {
-     "url": "https://unicar.skoda-auto.cz/ojete-vozy/skoda-octavia-fresh/tmbac7ne6j0022238/463818",
-     "title": "&#x160;koda Octavia Fresh | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://unicar.skoda-auto.cz/ojete-vozy/skoda-octavia-rs/tmbak7ne3k0045819/469471",
      "title": "&#x160;koda Octavia RS | &#x160;koda Auto a.s.",
      "result": "200"
@@ -4701,7 +4621,7 @@
      "result": "200"
     }
    ],
-   "pages": 12,
+   "pages": 11,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -4789,12 +4709,17 @@
      "result": "200"
     },
     {
+     "url": "https://autocentrala.skoda-auto.cz/ojete-vozy/skoda-octavia-ambition-plus/tmbjg7nx5ny019246/472760",
+     "title": "&#x160;koda Octavia Ambition Plus | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://autocentrala.skoda-auto.cz/ojete-vozy/skoda-octavia-sportline/tmbar8nx2sm057116/472560",
      "title": "&#x160;koda Octavia SportLine | &#x160;koda Auto a.s.",
      "result": "200"
     }
    ],
-   "pages": 3,
+   "pages": 4,
    "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": false,
@@ -4927,13 +4852,8 @@
      "result": "200"
     },
     {
-     "url": "https://autoklever.skoda-auto.cz/ojete-vozy/skoda-octavia-ambition-fresh/tmbar8nxxry159508/467848",
-     "title": "&#x160;koda Octavia Ambition Fresh | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
-     "url": "https://autoklever.skoda-auto.cz/ojete-vozy/skoda-octavia-ambition-fresh/tmbcj8nx4ry182251/467801",
-     "title": "&#x160;koda Octavia Ambition Fresh | &#x160;koda Auto a.s.",
+     "url": "https://autoklever.skoda-auto.cz/ojete-vozy/skoda-octavia-exclusive-selection/tmbar8nx4tm020165/472639",
+     "title": "&#x160;koda Octavia Exclusive Selection | &#x160;koda Auto a.s.",
      "result": "200"
     },
     {
@@ -4942,17 +4862,17 @@
      "result": "200"
     },
     {
-     "url": "https://autoklever.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbar8nxxtm021496/471545",
+     "url": "https://autoklever.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbar8nx1tm014243/472756",
      "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
      "result": "200"
     },
     {
-     "url": "https://autoklever.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbjr8nx2sy126265/467849",
+     "url": "https://autoklever.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbar8nxxtm021496/471545",
      "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
      "result": "200"
     }
    ],
-   "pages": 10,
+   "pages": 9,
    "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": false,
@@ -5092,7 +5012,7 @@
     {
      "url": "https://www.a2000.cz/",
      "title": "https://www.a2000.cz/",
-     "result": "URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1011)>"
+     "result": "URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)>"
     },
     {
      "url": "https://autospektrum2000.skoda-auto.cz/skladove-vozy",
@@ -5239,11 +5159,6 @@
      "result": "200"
     },
     {
-     "url": "https://pp-autocentrum.skoda-auto.cz/ojete-vozy/skoda-octavia-sportline/tmbar8nx5tm033295/469199",
-     "title": "&#x160;koda Octavia SportLine | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://pp-autocentrum.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbaa0nx2tm009156/469927",
      "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
      "result": "200"
@@ -5284,7 +5199,7 @@
      "result": "200"
     }
    ],
-   "pages": 17,
+   "pages": 16,
    "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": false,
