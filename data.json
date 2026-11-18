@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-17T15:38:16+02:00",
+ "generated_at": "2026-11-18T15:13:31+02:00",
  "title": "Octavia Exclusive Selection",
- "subtitle": "Actualisation du 17/11/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
+ "subtitle": "Actualisation du 18/11/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
  "coverage": {
   "domains": 115,
   "ok": 110,
   "ko": 5,
-  "pages": 706,
+  "pages": 710,
   "own_site_ok": 99,
   "portal_ok": 51
  },
@@ -453,14 +453,39 @@
    "checked": [
     {
      "url": "https://www.arservis.cz/",
-     "title": "https://www.arservis.cz/",
-     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1011)>"
+     "title": "AR SERVIS &mdash; prodej vozů Škoda a Hyundai Jindřichův Hradec",
+     "result": "200"
+    },
+    {
+     "url": "https://www.arservis.cz/ojete-vozy/?znacka=skoda&stavAuta=ojete",
+     "title": "Skladové a ojeté vozy &mdash; AR SERVIS",
+     "result": "200"
+    },
+    {
+     "url": "https://www.arservis.cz/vw-uzitkove-vozy/",
+     "title": "VW užitkové vozy &mdash; AR SERVIS",
+     "result": "200"
+    },
+    {
+     "url": "https://www.arservis.cz/skladove-vozy/?stavAuta=nove",
+     "title": "Skladové a ojeté vozy &mdash; AR SERVIS",
+     "result": "200"
+    },
+    {
+     "url": "https://www.arservis.cz/ojete-vozy/?stavAuta=ojete",
+     "title": "Skladové a ojeté vozy &mdash; AR SERVIS",
+     "result": "200"
+    },
+    {
+     "url": "https://www.arservis.cz/autorizovany-servis-skoda-hyundai-vw-uzitkove-vozy/",
+     "title": "Autorizovaný servis vozů Volkswagen, Volkswagen Užitkové vozy, Škoda a Hyundai &mdash; AR SERVIS",
+     "result": "200"
     }
    ],
-   "pages": 0,
-   "status": "Non vérifiable · échec d’accès",
-   "reachable": false,
-   "own_site_ok": false,
+   "pages": 6,
+   "status": "Site propre accessible · contrôle partiel du stock",
+   "reachable": true,
+   "own_site_ok": true,
    "portal_ok": false
   },
   {
@@ -571,17 +596,17 @@
      "result": "200"
     },
     {
-     "url": "https://auto-poly.cz/nabidka-vozidel?weeklyOffer=true",
-     "title": "Nabídka vozidel - Auto - Poly",
-     "result": "200"
-    },
-    {
      "url": "https://auto-poly.cz/nabidka-vozidel?condition[0]=USED&amp;condition[1]=EX_DEMO",
      "title": "Nabídka vozidel - Auto - Poly",
      "result": "200"
     },
     {
      "url": "https://auto-poly.cz/nabidka-vozidel?condition=NEW",
+     "title": "Nabídka vozidel - Auto - Poly",
+     "result": "200"
+    },
+    {
+     "url": "https://auto-poly.cz/nabidka-vozidel?weeklyOffer=true",
      "title": "Nabídka vozidel - Auto - Poly",
      "result": "200"
     }
@@ -806,13 +831,13 @@
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-vivaro-l1-m-panel-van-2-2-cdti-150k-mt6-46022",
-     "title": "Opel Vivaro L1 (M) Panel Van 2.2 CDTi 150k MT6/46022 - autodobrovolny.cz",
+     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-frontera-edition-electric-elektromotor-83kw-113k-00875",
+     "title": "Opel Frontera Edition Electric Elektromotor (83kW/113k)/D234DK - autodobrovolny.cz",
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-frontera-edition-electric-elektromotor-83kw-113k-00875",
-     "title": "Opel Frontera Edition Electric Elektromotor (83kW/113k)/D234DK - autodobrovolny.cz",
+     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-vivaro-l1-m-panel-van-2-2-cdti-150k-mt6-46022",
+     "title": "Opel Vivaro L1 (M) Panel Van 2.2 CDTi 150k MT6/46022 - autodobrovolny.cz",
      "result": "200"
     },
     {
@@ -1060,14 +1085,9 @@
      "url": "https://hybes.skoda-auto.cz/ojete-vozy/skoda-octavia-sportline/tmbaj8nx3vm022340/469376",
      "title": "&#x160;koda Octavia SportLine | &#x160;koda Auto a.s.",
      "result": "200"
-    },
-    {
-     "url": "https://hybes.skoda-auto.cz/ojete-vozy/skoda-octavia-sportline/tmbjj8nx4py018910/471307",
-     "title": "&#x160;koda Octavia SportLine | &#x160;koda Auto a.s.",
-     "result": "200"
     }
    ],
-   "pages": 14,
+   "pages": 13,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -1533,12 +1553,17 @@
      "result": "200"
     },
     {
+     "url": "https://stepanek.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbar8nxxtm019795/473584",
+     "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://stepanek.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbjr7nx0my132286/471008",
      "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
      "result": "200"
     }
    ],
-   "pages": 14,
+   "pages": 15,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -1920,14 +1945,9 @@
      "url": "https://autocentrum-ta.skoda-auto.cz/ojete-vozy/skoda-octavia-rs/tmbav0nxxsm021199/470726",
      "title": "&#x160;koda Octavia RS | &#x160;koda Auto a.s.",
      "result": "200"
-    },
-    {
-     "url": "https://autocentrum-ta.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbjj8nx6sy162662/460516",
-     "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
-     "result": "200"
     }
    ],
-   "pages": 8,
+   "pages": 7,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -2645,14 +2665,14 @@
    "checked": [
     {
      "url": "https://www.inpro-caslav.cz/",
-     "title": "Inpro Čáslav | Inpro Čáslav",
-     "result": "200"
+     "title": "https://www.inpro-caslav.cz/",
+     "result": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     }
    ],
-   "pages": 1,
-   "status": "Site propre accessible · contrôle partiel du stock",
-   "reachable": true,
-   "own_site_ok": true,
+   "pages": 0,
+   "status": "Non vérifiable · échec d’accès",
+   "reachable": false,
+   "own_site_ok": false,
    "portal_ok": false
   },
   {
@@ -2947,11 +2967,6 @@
      "result": "200"
     },
     {
-     "url": "https://okim.skoda-auto.cz/ojete-vozy/skoda-octavia-top-selection/tmbjr8nx2sy014419/473143",
-     "title": "&#x160;koda Octavia Top Selection | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://okim.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbar0nx0ny090100/473510",
      "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
      "result": "200"
@@ -2972,7 +2987,7 @@
      "result": "200"
     }
    ],
-   "pages": 13,
+   "pages": 12,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -3214,23 +3229,23 @@
      "result": "200"
     },
     {
+     "url": "https://www.tukas.cz/akcni-nabidky/renault-business-days",
+     "title": "Užitkové vozy Renault extra výhodně - TUkas",
+     "result": "200"
+    },
+    {
+     "url": "https://www.tukas.cz/akcni-nabidky/akcni-edice-family",
+     "title": "Volkswagen Family – bohatá výbava za akční cenu - TUkas",
+     "result": "200"
+    },
+    {
      "url": "https://www.tukas.cz/akcni-nabidky/nove-volvo-xc40-xc60",
      "title": "Nové Volvo XC40 a XC60 do výroby | Volvo TUkas - TUkas",
      "result": "200"
     },
     {
-     "url": "https://www.tukas.cz/akcni-nabidky/zimni-prislusenstvi-opel-se-slevou-30",
-     "title": "Zimní příslušenství Opel se slevou 30 % - TUkas",
-     "result": "200"
-    },
-    {
-     "url": "https://www.tukas.cz/tukas-ojete-vozy/vykup-vozu",
-     "title": "Výkup vozů všech značek | Rychlé a férové jednání | TUkas Praha - TUkas",
-     "result": "200"
-    },
-    {
-     "url": "https://www.tukas.cz/akcni-nabidky/renault-business-days",
-     "title": "Užitkové vozy Renault extra výhodně - TUkas",
+     "url": "https://www.tukas.cz/akcni-nabidky/dacia-hybrid-150-4x4",
+     "title": "Dacia Hybrid 150 4x4 - TUkas",
      "result": "200"
     },
     {
@@ -3377,12 +3392,17 @@
      "result": "200"
     },
     {
+     "url": "https://brejla.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbjw8nx6ry043151/473580",
+     "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://brejla.skoda-auto.cz/ojete-vozy/skoda-octavia/tmblk8nx2py094745/473331",
      "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
      "result": "200"
     }
    ],
-   "pages": 15,
+   "pages": 16,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -4778,6 +4798,11 @@
      "result": "200"
     },
     {
+     "url": "https://verold-benesov.skoda-auto.cz/ojete-vozy/skoda-octavia-selection/tmbja8nx7sy146261/453685",
+     "title": "&#x160;koda Octavia Selection | &#x160;koda Auto a.s.",
+     "result": "200"
+    },
+    {
      "url": "https://verold-benesov.skoda-auto.cz/ojete-vozy/skoda-octavia-style/tmbar8nx8ry156252/471537",
      "title": "&#x160;koda Octavia Style | &#x160;koda Auto a.s.",
      "result": "200"
@@ -4788,7 +4813,7 @@
      "result": "200"
     }
    ],
-   "pages": 4,
+   "pages": 5,
    "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": false,
@@ -5155,11 +5180,6 @@
      "result": "200"
     },
     {
-     "url": "https://autospektrum2000.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbaj8nx2tm019667/467752",
-     "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
-     "result": "200"
-    },
-    {
      "url": "https://autospektrum2000.skoda-auto.cz/ojete-vozy/skoda-octavia/tmbar8nx3tm008041/468749",
      "title": "&#x160;koda Octavia | &#x160;koda Auto a.s.",
      "result": "200"
@@ -5170,7 +5190,7 @@
      "result": "200"
     }
    ],
-   "pages": 7,
+   "pages": 6,
    "status": "Portail Škoda accessible, site propre injoignable · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": false,
