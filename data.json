@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-21T14:49:43+02:00",
+ "generated_at": "2026-11-22T14:45:34+02:00",
  "title": "Octavia Exclusive Selection",
- "subtitle": "Actualisation du 21/11/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
+ "subtitle": "Actualisation du 22/11/2026 — priorité 1.5 TSI 110 kW BVM6 ; suivi parallèle 2.0 TDI 110 kW DSG7. Octavia IV restylée à hayon uniquement.",
  "coverage": {
   "domains": 115,
   "ok": 111,
   "ko": 4,
-  "pages": 711,
+  "pages": 710,
   "own_site_ok": 100,
   "portal_ok": 51
  },
@@ -826,13 +826,13 @@
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-vivaro-l1-m-panel-van-2-2-cdti-150k-mt6-46022",
-     "title": "Opel Vivaro L1 (M) Panel Van 2.2 CDTi 150k MT6/46022 - autodobrovolny.cz",
+     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-frontera-edition-electric-elektromotor-83kw-113k-00875",
+     "title": "Opel Frontera Edition Electric Elektromotor (83kW/113k)/D234DK - autodobrovolny.cz",
      "result": "200"
     },
     {
-     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-frontera-edition-electric-elektromotor-83kw-113k-00875",
-     "title": "Opel Frontera Edition Electric Elektromotor (83kW/113k)/D234DK - autodobrovolny.cz",
+     "url": "https://www.autodobrovolny.cz/katalog/predvadeci/opel-vivaro-l1-m-panel-van-2-2-cdti-150k-mt6-46022",
+     "title": "Opel Vivaro L1 (M) Panel Van 2.2 CDTi 150k MT6/46022 - autodobrovolny.cz",
      "result": "200"
     },
     {
@@ -991,11 +991,6 @@
      "result": "200"
     },
     {
-     "url": "https://hlavacek.cz/detail-vozu.php?slug=skoda-octavia-1-5tsi-110-kw-style-m6",
-     "title": "Škoda Octavia – ojetý vůz | AUTO Hlaváček",
-     "result": "200"
-    },
-    {
      "url": "https://hlavacek.skoda-auto.cz/skladove-vozy",
      "title": "Skladov&#xE9; vozy | &#x160;koda Auto a.s.",
      "result": "200"
@@ -1021,7 +1016,7 @@
      "result": "200"
     }
    ],
-   "pages": 7,
+   "pages": 6,
    "status": "Site propre et portail Škoda accessibles · contrôle partiel du stock",
    "reachable": true,
    "own_site_ok": true,
@@ -3229,18 +3224,8 @@
      "result": "200"
     },
     {
-     "url": "https://www.tukas.cz/akcni-nabidky/dacia-hybrid-150-4x4",
-     "title": "Dacia Hybrid 150 4x4 - TUkas",
-     "result": "200"
-    },
-    {
      "url": "https://www.tukas.cz/akcni-nabidky/zimni-prislusenstvi-opel-se-slevou-30",
      "title": "Zimní příslušenství Opel se slevou 30 % - TUkas",
-     "result": "200"
-    },
-    {
-     "url": "https://www.tukas.cz/akcni-nabidky/akcni-edice-family",
-     "title": "Volkswagen Family – bohatá výbava za akční cenu - TUkas",
      "result": "200"
     },
     {
@@ -3249,8 +3234,18 @@
      "result": "200"
     },
     {
-     "url": "http://www.tukas.cz/tukas-ojete-vozy/vykup-vozu",
-     "title": "Výkup vozů všech značek | Rychlé a férové jednání | TUkas Praha - TUkas",
+     "url": "https://www.tukas.cz/akcni-nabidky/akcni-edice-family",
+     "title": "Volkswagen Family – bohatá výbava za akční cenu - TUkas",
+     "result": "200"
+    },
+    {
+     "url": "https://www.tukas.cz/akcni-nabidky/renault-business-days",
+     "title": "Užitkové vozy Renault extra výhodně - TUkas",
+     "result": "200"
+    },
+    {
+     "url": "https://www.tukas.cz/akcni-nabidky/dacia-hybrid-150-4x4",
+     "title": "Dacia Hybrid 150 4x4 - TUkas",
      "result": "200"
     }
    ],
@@ -5459,15 +5454,6 @@
  "changes": {
   "new": [],
   "gone": [],
-  "price": [
-   {
-    "dealer": "Auto Opat",
-    "vin": "TMBAJ8NX2SM055020",
-    "url": "https://www.autoopat.cz/vuz/skoda-octavia-exclusive-20tdi-110kw-dsg-matrix",
-    "before": 789900,
-    "after": 774900,
-    "currency": "CZK"
-   }
-  ]
+  "price": []
  }
 }
